@@ -57,15 +57,14 @@ body{margin: 0 ;
          Header Style END 
     ------------------------*/
     /* Mach section start */
-    
-.mach-info{display: flex;}
+    .mach-info{display: flex;}
     .side-nav{
         display: inline-block;
         margin-top: 125px;
-        margin-left: 95px;   
+        margin-left: 117.5px;   
         background-color: black;
-        width: 265px;
-       height: 245px;
+        width: 255px;
+       height: 225px;
        display: grid;
        justify-content: center;
     align-items: center;
@@ -81,9 +80,9 @@ body{margin: 0 ;
             background-color: white;   
         }
         .headinng  h1 {
-            font-size: 20px;
+            font-size: 18px;
             text-align: center;
-            padding: 10px 15px;
+            padding: 10px 25px;
             margin: 15px 0px;
         }
         
@@ -97,45 +96,49 @@ body{margin: 0 ;
             text-decoration: none;
             color: black;
         }   
-           
-
-                
-        .mach{
-        width: 275px;
-        /* height: 360px; */
-        border-radius: 8px;
-        box-shadow: 3px 4px gainsboro;
-        }
-      
-
-
-        .mach-text{margin-top: 10px;
-            margin-left: 10px;
-        width: 240px;}
-        .Transfer{
-            border: 1px solid gray;
-            padding: 3px 8px;
-            border-radius: 6px;}
-        .mach-text h4{margin-top: 15px;}
-            .icon{color: gray;
-            margin-top: -7px;
-            font-size: 16px;
-            display: flex;
-            justify-content: space-between;}
-        .icon-2{margin-right: 100px;}
-
-        .mach-container{
+           /* Mach */
+           .mach-container{
             margin-top: 125px;
-            margin-bottom: 150px;
-            margin-left: 30px;
+            margin-left: 25px;
+            margin-bottom: 120px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-column-gap: 20px;
-            grid-row-gap: 30px;}
+           grid-column-gap: 25px;
+           grid-row-gap: 35px;
+           }
+           .mach{width: 230px;
+            box-shadow: 2px 2px rgba(218, 216, 216, 0.67);
+                padding: 30px 13px;
+            border-radius: 6px;}
+           .G-VS-F{
+            display: flex;
+            justify-content: center;
+           }
+           .mach span{
+            font-size: 16px;
+            font-weight: bolder;
+            margin: 0px 5px;
+            padding-top: 20px;
+           }
+           .g-vs-f-text{
+            text-align: center;
+           }
+           .g-vs-f-header{
+            font-size: 18px;
+            text-shadow: 1px 1px gray;
+           }
+
+           .p-text{
+            font-size: small;
+            margin-top: -5px;
+            color: gray;
+           }
+
 
             /* Mach section End */
 
             /* Footer section start */
+
             .footer-container{
                 width: 99.85%;
                 height:444px ;
