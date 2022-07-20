@@ -1,4 +1,5 @@
-body{
+body{margin: 0 ;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -55,13 +56,13 @@ body{
     /*----------------------
          Header Style END 
     ------------------------*/
-
+    /* Mach section start */
     
 .mach-info{display: flex;}
     .side-nav{
         display: inline-block;
         margin-top: 125px;
-        margin-left: 250px;   
+        margin-left: 80px;   
         background-color: black;
         width: 300px;
        height: 288.516px;
@@ -74,20 +75,29 @@ body{
        font-size: 18px;
         color: black;
         }
-        .headinng{
+        .headinng  {
             
             border-radius: 15px;
             background-color: white;   
         }
-        .headinng h1{
+        .headinng  h1 {
             font-size: 22px;
             text-align: center;
             padding: 15px 20px;
             margin: 20px 0px;
         }
-         .blog-color-1{
+        
+
+
+        .link-color{
             background-color: red;
-            border-radius: 15px;}
+            border-radius: 15px;
+        }
+        .headinng a {
+            text-decoration: none;
+            color: black;
+        }   
+           
 
                 
         .mach{
@@ -116,8 +126,52 @@ body{
 
         .mach-container{
             margin-top: 125px;
+            margin-bottom: 150px;
             margin-left: 30px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-column-gap: 20px;
             grid-row-gap: 30px;}
+
+            /* Mach section End */
+
+            /* Footer section start */
+            .footer-container{
+                width: 99%;
+                height:444px ;
+                background-color: black;
+                border: 1px solid gray;
+                
+                
+                text-align: center;
+            }
+            .footer-container h1{
+                margin-top: 140px;
+                color: lightblue;
+            }
+            .footer-head{
+                margin-top: 150px;
+
+            }
+            .hline{width: 1000px;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                margin-bottom: 80px;}
+
+                    .footer-item{
+                       display: flex;
+                       justify-content: space-around;
+                    }
+                    .footer-item li{
+                        color: rgba(211, 211, 211, 0.781);
+                        font-size: 16px;
+                        list-style: none;}
+
+                    .footer-item li:hover{ border-bottom: 1px solid lightgray;}
+
+                    /* Footer END */
+
+                    /*---------------------------
+                    -----------------------------
+                         THANK YOU DEAR SIR 
+                    ------------------------------
+                    ------------------------------*/
