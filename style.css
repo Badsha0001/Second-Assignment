@@ -1,0 +1,123 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------------
+         Header Style Start 
+    ------------------------*/
+.main-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 1100px;
+    height: 550px;
+    border-radius: 18px;
+}
+
+.text-area{width: 440px;
+    height: 414px;
+    color: rgb(209, 205, 205);
+    padding-left: 120px;
+}
+.text-area h1{font-size: 60px;
+                color: white;}
+.fast-heading{  margin-bottom: 2px;}
+.read-pra{
+    margin-bottom: 30px;
+   
+}
+
+.banner-img{
+  padding-top: 80px;
+}
+
+.header-btn{
+    background-color: rgba(237, 47, 47, 0.953);
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+
+}
+.header-btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: bisque;
+}
+.live{
+    padding-right:8px;
+   
+}
+
+    /*----------------------
+         Header Style END 
+    ------------------------*/
+
+    
+.mach-info{display: flex;}
+    .side-nav{
+        display: inline-block;
+        margin-top: 125px;
+        margin-left: 250px;   
+        background-color: black;
+        width: 300px;
+       height: 288.516px;
+       display: grid;
+       justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    }
+    .wrap{
+       font-size: 18px;
+        color: black;
+        }
+        .headinng{
+            
+            border-radius: 15px;
+            background-color: white;   
+        }
+        .headinng h1{
+            font-size: 22px;
+            text-align: center;
+            padding: 15px 20px;
+            margin: 20px 0px;
+        }
+         .blog-color-1{
+            background-color: red;
+            border-radius: 15px;}
+
+                
+        .mach{
+        width: 275px;
+        /* height: 360px; */
+        border-radius: 8px;
+        box-shadow: 3px 4px gainsboro;
+        }
+      
+
+
+        .mach-text{margin-top: 10px;
+            margin-left: 10px;
+        width: 240px;}
+        .Transfer{
+            border: 1px solid gray;
+            padding: 3px 8px;
+            border-radius: 6px;}
+        .mach-text h4{margin-top: 15px;}
+            .icon{color: gray;
+            margin-top: -7px;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;}
+        .icon-2{margin-right: 100px;}
+
+        .mach-container{
+            margin-top: 125px;
+            margin-left: 30px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 30px;}
